@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2D8F01321460B2000C6EF0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D8F01221460B2000C6EF0D /* AppDelegate.m */; };
+		A2D8F01621460B2000C6EF0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D8F01521460B2000C6EF0D /* ViewController.m */; };
+		A2D8F01921460B2000C6EF0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D8F01721460B2000C6EF0D /* Main.storyboard */; };
+		A2D8F01B21460B2000C6EF0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D8F01A21460B2000C6EF0D /* Assets.xcassets */; };
+		A2D8F01E21460B2000C6EF0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D8F01C21460B2000C6EF0D /* LaunchScreen.storyboard */; };
+		A2D8F02121460B2000C6EF0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D8F02021460B2000C6EF0D /* main.m */; };
+		A2D8F02B21460B2000C6EF0D /* HLSegmnetBarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D8F02A21460B2000C6EF0D /* HLSegmnetBarDemoUITests.m */; };
+		A2D8F03821460E9600C6EF0D /* UIView+HLSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D8F03721460E9600C6EF0D /* UIView+HLSegmentBar.m */; };
+		A2D8F03B2146100E00C6EF0D /* HLSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D8F03A2146100E00C6EF0D /* HLSegmentBar.m */; };
+		A2D8F03E2146111900C6EF0D /* HLSegmentBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D8F03D2146111900C6EF0D /* HLSegmentBarConfig.m */; };
+		A2D8F0412146404500C6EF0D /* HLSegmentBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D8F0402146404500C6EF0D /* HLSegmentBarVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2D8F02721460B2000C6EF0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2D8F00621460B2000C6EF0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2D8F00D21460B2000C6EF0D;
+			remoteInfo = HLSegmnetBarDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2D8F00E21460B2000C6EF0D /* HLSegmnetBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLSegmnetBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D8F01121460B2000C6EF0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2D8F01221460B2000C6EF0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2D8F01421460B2000C6EF0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2D8F01521460B2000C6EF0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2D8F01821460B2000C6EF0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2D8F01A21460B2000C6EF0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2D8F01D21460B2000C6EF0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2D8F01F21460B2000C6EF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D8F02021460B2000C6EF0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2D8F02621460B2000C6EF0D /* HLSegmnetBarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLSegmnetBarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D8F02A21460B2000C6EF0D /* HLSegmnetBarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSegmnetBarDemoUITests.m; sourceTree = "<group>"; };
+		A2D8F02C21460B2000C6EF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D8F03621460E9600C6EF0D /* UIView+HLSegmentBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+HLSegmentBar.h"; sourceTree = "<group>"; };
+		A2D8F03721460E9600C6EF0D /* UIView+HLSegmentBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+HLSegmentBar.m"; sourceTree = "<group>"; };
+		A2D8F0392146100E00C6EF0D /* HLSegmentBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSegmentBar.h; sourceTree = "<group>"; };
+		A2D8F03A2146100E00C6EF0D /* HLSegmentBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSegmentBar.m; sourceTree = "<group>"; };
+		A2D8F03C2146111900C6EF0D /* HLSegmentBarConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSegmentBarConfig.h; sourceTree = "<group>"; };
+		A2D8F03D2146111900C6EF0D /* HLSegmentBarConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSegmentBarConfig.m; sourceTree = "<group>"; };
+		A2D8F03F2146404500C6EF0D /* HLSegmentBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSegmentBarVC.h; sourceTree = "<group>"; };
+		A2D8F0402146404500C6EF0D /* HLSegmentBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSegmentBarVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2D8F00B21460B2000C6EF0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D8F02321460B2000C6EF0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2D8F00521460B2000C6EF0D = {
+			isa = PBXGroup;
+			children = (
+				A2D8F01021460B2000C6EF0D /* HLSegmnetBarDemo */,
+				A2D8F02921460B2000C6EF0D /* HLSegmnetBarDemoUITests */,
+				A2D8F00F21460B2000C6EF0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2D8F00F21460B2000C6EF0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2D8F00E21460B2000C6EF0D /* HLSegmnetBarDemo.app */,
+				A2D8F02621460B2000C6EF0D /* HLSegmnetBarDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2D8F01021460B2000C6EF0D /* HLSegmnetBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A2D8F03521460C1800C6EF0D /* HLSegmentBar */,
+				A2D8F01121460B2000C6EF0D /* AppDelegate.h */,
+				A2D8F01221460B2000C6EF0D /* AppDelegate.m */,
+				A2D8F01421460B2000C6EF0D /* ViewController.h */,
+				A2D8F01521460B2000C6EF0D /* ViewController.m */,
+				A2D8F01721460B2000C6EF0D /* Main.storyboard */,
+				A2D8F01A21460B2000C6EF0D /* Assets.xcassets */,
+				A2D8F01C21460B2000C6EF0D /* LaunchScreen.storyboard */,
+				A2D8F01F21460B2000C6EF0D /* Info.plist */,
+				A2D8F02021460B2000C6EF0D /* main.m */,
+			);
+			path = HLSegmnetBarDemo;
+			sourceTree = "<group>";
+		};
+		A2D8F02921460B2000C6EF0D /* HLSegmnetBarDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2D8F02A21460B2000C6EF0D /* HLSegmnetBarDemoUITests.m */,
+				A2D8F02C21460B2000C6EF0D /* Info.plist */,
+			);
+			path = HLSegmnetBarDemoUITests;
+			sourceTree = "<group>";
+		};
+		A2D8F03521460C1800C6EF0D /* HLSegmentBar */ = {
+			isa = PBXGroup;
+			children = (
+				A2D8F03621460E9600C6EF0D /* UIView+HLSegmentBar.h */,
+				A2D8F03721460E9600C6EF0D /* UIView+HLSegmentBar.m */,
+				A2D8F0392146100E00C6EF0D /* HLSegmentBar.h */,
+				A2D8F03A2146100E00C6EF0D /* HLSegmentBar.m */,
+				A2D8F03C2146111900C6EF0D /* HLSegmentBarConfig.h */,
+				A2D8F03D2146111900C6EF0D /* HLSegmentBarConfig.m */,
+				A2D8F03F2146404500C6EF0D /* HLSegmentBarVC.h */,
+				A2D8F0402146404500C6EF0D /* HLSegmentBarVC.m */,
+			);
+			path = HLSegmentBar;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2D8F00D21460B2000C6EF0D /* HLSegmnetBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D8F02F21460B2000C6EF0D /* Build configuration list for PBXNativeTarget "HLSegmnetBarDemo" */;
+			buildPhases = (
+				A2D8F00A21460B2000C6EF0D /* Sources */,
+				A2D8F00B21460B2000C6EF0D /* Frameworks */,
+				A2D8F00C21460B2000C6EF0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLSegmnetBarDemo;
+			productName = HLSegmnetBarDemo;
+			productReference = A2D8F00E21460B2000C6EF0D /* HLSegmnetBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2D8F02521460B2000C6EF0D /* HLSegmnetBarDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D8F03221460B2000C6EF0D /* Build configuration list for PBXNativeTarget "HLSegmnetBarDemoUITests" */;
+			buildPhases = (
+				A2D8F02221460B2000C6EF0D /* Sources */,
+				A2D8F02321460B2000C6EF0D /* Frameworks */,
+				A2D8F02421460B2000C6EF0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2D8F02821460B2000C6EF0D /* PBXTargetDependency */,
+			);
+			name = HLSegmnetBarDemoUITests;
+			productName = HLSegmnetBarDemoUITests;
+			productReference = A2D8F02621460B2000C6EF0D /* HLSegmnetBarDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2D8F00621460B2000C6EF0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "刘洪";
+				TargetAttributes = {
+					A2D8F00D21460B2000C6EF0D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A2D8F02521460B2000C6EF0D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A2D8F00D21460B2000C6EF0D;
+					};
+				};
+			};
+			buildConfigurationList = A2D8F00921460B2000C6EF0D /* Build configuration list for PBXProject "HLSegmnetBarDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2D8F00521460B2000C6EF0D;
+			productRefGroup = A2D8F00F21460B2000C6EF0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2D8F00D21460B2000C6EF0D /* HLSegmnetBarDemo */,
+				A2D8F02521460B2000C6EF0D /* HLSegmnetBarDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2D8F00C21460B2000C6EF0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D8F01E21460B2000C6EF0D /* LaunchScreen.storyboard in Resources */,
+				A2D8F01B21460B2000C6EF0D /* Assets.xcassets in Resources */,
+				A2D8F01921460B2000C6EF0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D8F02421460B2000C6EF0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2D8F00A21460B2000C6EF0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D8F03821460E9600C6EF0D /* UIView+HLSegmentBar.m in Sources */,
+				A2D8F0412146404500C6EF0D /* HLSegmentBarVC.m in Sources */,
+				A2D8F03E2146111900C6EF0D /* HLSegmentBarConfig.m in Sources */,
+				A2D8F01621460B2000C6EF0D /* ViewController.m in Sources */,
+				A2D8F02121460B2000C6EF0D /* main.m in Sources */,
+				A2D8F03B2146100E00C6EF0D /* HLSegmentBar.m in Sources */,
+				A2D8F01321460B2000C6EF0D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D8F02221460B2000C6EF0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D8F02B21460B2000C6EF0D /* HLSegmnetBarDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2D8F02821460B2000C6EF0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2D8F00D21460B2000C6EF0D /* HLSegmnetBarDemo */;
+			targetProxy = A2D8F02721460B2000C6EF0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2D8F01721460B2000C6EF0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D8F01821460B2000C6EF0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2D8F01C21460B2000C6EF0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D8F01D21460B2000C6EF0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2D8F02D21460B2000C6EF0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2D8F02E21460B2000C6EF0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2D8F03021460B2000C6EF0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LW27Q96626;
+				INFOPLIST_FILE = HLSegmnetBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.faceshibie.www.HLSegmnetBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2D8F03121460B2000C6EF0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LW27Q96626;
+				INFOPLIST_FILE = HLSegmnetBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.faceshibie.www.HLSegmnetBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2D8F03321460B2000C6EF0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LW27Q96626;
+				INFOPLIST_FILE = HLSegmnetBarDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.faceshibie.www.HLSegmnetBarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HLSegmnetBarDemo;
+			};
+			name = Debug;
+		};
+		A2D8F03421460B2000C6EF0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LW27Q96626;
+				INFOPLIST_FILE = HLSegmnetBarDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.faceshibie.www.HLSegmnetBarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HLSegmnetBarDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2D8F00921460B2000C6EF0D /* Build configuration list for PBXProject "HLSegmnetBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D8F02D21460B2000C6EF0D /* Debug */,
+				A2D8F02E21460B2000C6EF0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D8F02F21460B2000C6EF0D /* Build configuration list for PBXNativeTarget "HLSegmnetBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D8F03021460B2000C6EF0D /* Debug */,
+				A2D8F03121460B2000C6EF0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D8F03221460B2000C6EF0D /* Build configuration list for PBXNativeTarget "HLSegmnetBarDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D8F03321460B2000C6EF0D /* Debug */,
+				A2D8F03421460B2000C6EF0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2D8F00621460B2000C6EF0D /* Project object */;
+}
