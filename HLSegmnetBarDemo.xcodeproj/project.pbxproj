@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D3614B87288430CEEAA99D6 /* libPods-HLSegmnetBarDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E57D2335D87C738C5473A075 /* libPods-HLSegmnetBarDemo.a */; };
 		A2D8F01321460B2000C6EF0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D8F01221460B2000C6EF0D /* AppDelegate.m */; };
 		A2D8F01621460B2000C6EF0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D8F01521460B2000C6EF0D /* ViewController.m */; };
 		A2D8F01921460B2000C6EF0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D8F01721460B2000C6EF0D /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5DB5A6A49D829BEB05050284 /* Pods-HLSegmnetBarDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLSegmnetBarDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLSegmnetBarDemo/Pods-HLSegmnetBarDemo.release.xcconfig"; sourceTree = "<group>"; };
 		A2D8F00E21460B2000C6EF0D /* HLSegmnetBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLSegmnetBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D8F01121460B2000C6EF0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A2D8F01221460B2000C6EF0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,6 +54,8 @@
 		A2D8F03D2146111900C6EF0D /* HLSegmentBarConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSegmentBarConfig.m; sourceTree = "<group>"; };
 		A2D8F03F2146404500C6EF0D /* HLSegmentBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSegmentBarVC.h; sourceTree = "<group>"; };
 		A2D8F0402146404500C6EF0D /* HLSegmentBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSegmentBarVC.m; sourceTree = "<group>"; };
+		B03611FF86DDECB89BF2F4C4 /* Pods-HLSegmnetBarDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLSegmnetBarDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLSegmnetBarDemo/Pods-HLSegmnetBarDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E57D2335D87C738C5473A075 /* libPods-HLSegmnetBarDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLSegmnetBarDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D3614B87288430CEEAA99D6 /* libPods-HLSegmnetBarDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +77,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CE29883FF56B2B02C60067A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B03611FF86DDECB89BF2F4C4 /* Pods-HLSegmnetBarDemo.debug.xcconfig */,
+				5DB5A6A49D829BEB05050284 /* Pods-HLSegmnetBarDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		481B63B5B6332BE9387D7731 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E57D2335D87C738C5473A075 /* libPods-HLSegmnetBarDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A2D8F00521460B2000C6EF0D = {
 			isa = PBXGroup;
 			children = (
 				A2D8F01021460B2000C6EF0D /* HLSegmnetBarDemo */,
 				A2D8F02921460B2000C6EF0D /* HLSegmnetBarDemoUITests */,
 				A2D8F00F21460B2000C6EF0D /* Products */,
+				0CE29883FF56B2B02C60067A /* Pods */,
+				481B63B5B6332BE9387D7731 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,6 +162,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2D8F02F21460B2000C6EF0D /* Build configuration list for PBXNativeTarget "HLSegmnetBarDemo" */;
 			buildPhases = (
+				2612AD90934C157152F19735 /* [CP] Check Pods Manifest.lock */,
 				A2D8F00A21460B2000C6EF0D /* Sources */,
 				A2D8F00B21460B2000C6EF0D /* Frameworks */,
 				A2D8F00C21460B2000C6EF0D /* Resources */,
@@ -227,6 +252,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2612AD90934C157152F19735 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HLSegmnetBarDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A2D8F00A21460B2000C6EF0D /* Sources */ = {
@@ -387,6 +433,7 @@
 		};
 		A2D8F03021460B2000C6EF0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B03611FF86DDECB89BF2F4C4 /* Pods-HLSegmnetBarDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -401,6 +448,7 @@
 		};
 		A2D8F03121460B2000C6EF0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DB5A6A49D829BEB05050284 /* Pods-HLSegmnetBarDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
