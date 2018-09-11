@@ -8,3 +8,6 @@
 
 ## 使用方式
 参考demo
+
+## gif示例
+![image](https://github.com/CoderHL/HLSegmentBar/blob/master/gif/HLSegmentBar.gif)
