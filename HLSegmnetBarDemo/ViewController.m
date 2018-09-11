@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "HLSegmentBarVC.h"
+#import "childViewController.h"
 
 @interface ViewController ()
 @property (nonatomic, weak) HLSegmentBarVC *segmentBarVC;
@@ -26,23 +27,48 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    {
+        self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"changeTitle" style:UIBarButtonItemStylePlain target:self action:@selector(changeBtnClick)];
+    }
+    
     self.segmentBarVC.segmentBar.frame = CGRectMake(0, 64, self.view.bounds.size.width, 35);
     self.segmentBarVC.segmentBar.backgroundColor = [UIColor greenColor];
     self.segmentBarVC.view.frame = self.view.bounds;
     [self.view addSubview:self.segmentBarVC.view];
     
-    NSArray *items = @[@"专辑", @"声音", @"下载中"];
+    NSArray *items = @[@"关注", @"推荐", @"新时代"];
     
     //添加对应的子控制器
-    UIViewController *vc1 = [UIViewController new];
-    vc1.view.backgroundColor = [UIColor redColor];
+    childViewController *vc1 = [childViewController childViewControllerWithTitle:items[0]];
     
-    UIViewController *vc2 = [UIViewController new];
-    vc2.view.backgroundColor = [UIColor greenColor];
+    UIViewController *vc2 = [childViewController childViewControllerWithTitle:items[1]];
     
-    UIViewController *vc3 = [UIViewController new];
-    vc3.view.backgroundColor = [UIColor yellowColor];
+    UIViewController *vc3 = [childViewController childViewControllerWithTitle:items[2]];
     [self.segmentBarVC setUpWithItems:items childVCs:@[vc1, vc2, vc3]];
+}
+
+- (void)changeBtnClick
+{
+    NSArray *items = @[@"体育",@"财经",@"科技",@"历史",@"军事",@"汽车",@"足球",@"涨知识",@"国际"];
+    UIViewController *vc1 = [childViewController childViewControllerWithTitle:items[0]];
+    
+    UIViewController *vc2 = [childViewController childViewControllerWithTitle:items[1]];
+    
+    UIViewController *vc3 = [childViewController childViewControllerWithTitle:items[2]];
+    
+    UIViewController *vc4 = [childViewController childViewControllerWithTitle:items[3]];
+    
+    UIViewController *vc5 = [childViewController childViewControllerWithTitle:items[4]];
+    
+    UIViewController *vc6 = [childViewController childViewControllerWithTitle:items[5]];
+    
+    UIViewController *vc7 = [childViewController childViewControllerWithTitle:items[6]];
+    
+    UIViewController *vc8 = [childViewController childViewControllerWithTitle:items[7]];
+    
+    UIViewController *vc9 = [childViewController childViewControllerWithTitle:items[8]];
+
+    [self.segmentBarVC setUpWithItems:items childVCs:@[vc1, vc2, vc3,vc4,vc5,vc6,vc7,vc8,vc9]];
 }
 
 

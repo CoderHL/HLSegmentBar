@@ -19,6 +19,7 @@
 		A2D8F03B2146100E00C6EF0D /* HLSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D8F03A2146100E00C6EF0D /* HLSegmentBar.m */; };
 		A2D8F03E2146111900C6EF0D /* HLSegmentBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D8F03D2146111900C6EF0D /* HLSegmentBarConfig.m */; };
 		A2D8F0412146404500C6EF0D /* HLSegmentBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D8F0402146404500C6EF0D /* HLSegmentBarVC.m */; };
+		A2D8F0442147561B00C6EF0D /* childViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D8F0432147561B00C6EF0D /* childViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		A2D8F03D2146111900C6EF0D /* HLSegmentBarConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSegmentBarConfig.m; sourceTree = "<group>"; };
 		A2D8F03F2146404500C6EF0D /* HLSegmentBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSegmentBarVC.h; sourceTree = "<group>"; };
 		A2D8F0402146404500C6EF0D /* HLSegmentBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSegmentBarVC.m; sourceTree = "<group>"; };
+		A2D8F0422147561B00C6EF0D /* childViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = childViewController.h; sourceTree = "<group>"; };
+		A2D8F0432147561B00C6EF0D /* childViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = childViewController.m; sourceTree = "<group>"; };
 		B03611FF86DDECB89BF2F4C4 /* Pods-HLSegmnetBarDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLSegmnetBarDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLSegmnetBarDemo/Pods-HLSegmnetBarDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E57D2335D87C738C5473A075 /* libPods-HLSegmnetBarDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLSegmnetBarDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -122,6 +125,8 @@
 				A2D8F01221460B2000C6EF0D /* AppDelegate.m */,
 				A2D8F01421460B2000C6EF0D /* ViewController.h */,
 				A2D8F01521460B2000C6EF0D /* ViewController.m */,
+				A2D8F0422147561B00C6EF0D /* childViewController.h */,
+				A2D8F0432147561B00C6EF0D /* childViewController.m */,
 				A2D8F01721460B2000C6EF0D /* Main.storyboard */,
 				A2D8F01A21460B2000C6EF0D /* Assets.xcassets */,
 				A2D8F01C21460B2000C6EF0D /* LaunchScreen.storyboard */,
@@ -280,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2D8F03821460E9600C6EF0D /* UIView+HLSegmentBar.m in Sources */,
+				A2D8F0442147561B00C6EF0D /* childViewController.m in Sources */,
 				A2D8F0412146404500C6EF0D /* HLSegmentBarVC.m in Sources */,
 				A2D8F03E2146111900C6EF0D /* HLSegmentBarConfig.m in Sources */,
 				A2D8F01621460B2000C6EF0D /* ViewController.m in Sources */,
