@@ -29,6 +29,9 @@
     [super viewDidLoad];
     {
         self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"changeTitle" style:UIBarButtonItemStylePlain target:self action:@selector(changeBtnClick)];
+        
+        
+        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"changeConfig" style:UIBarButtonItemStylePlain target:self action:@selector(changeConfigClick)];
     }
     
     self.segmentBarVC.segmentBar.frame = CGRectMake(0, 64, self.view.bounds.size.width, 35);
@@ -45,6 +48,13 @@
     
     UIViewController *vc3 = [childViewController childViewControllerWithTitle:items[2]];
     [self.segmentBarVC setUpWithItems:items childVCs:@[vc1, vc2, vc3]];
+}
+
+// 改变选项卡显示主题
+- (void)changeConfigClick{
+    [self.segmentBarVC.segmentBar updateWithConfig:^(HLSegmentBarConfig *config) {
+        config.segmentBarBackColorBlock([UIColor whiteColor]).itemNormalColorBlock([UIColor lightGrayColor]);
+    }];
 }
 
 - (void)changeBtnClick
