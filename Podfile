@@ -4,6 +4,6 @@ target 'HLSegmnetBarDemo' do
 
    #Pods for HLSegmnetBarDemo
 	
-   #pod 'HLLSegmentBar', '~> 0.0.1'
+    #pod 'HLLSegmentBar', '~> 0.0.1'
 
 end
